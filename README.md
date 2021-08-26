@@ -94,5 +94,11 @@ There is two ways: Compilation and Execution and Make
 
 ## Subfunctions
 
+## FlowChart:
+
+![](https://github.com/Ele4327/simple_shell/blob/main/RECURSES/Basic_Shell_Flowchart.png)
+
 ## Tests
+
+
 
