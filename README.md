@@ -99,7 +99,24 @@ And that´s pretty mucho all, use the shell, like the standard shell.
 
 ### Make:
 
-We know we told you that the code are compiled with gcc, but, if you dont have that, we thought that too
+We know we told you that the code are compiled with gcc, but, if you dont have that
+we thought that too
+
+- Go on your machine to the desired location and if you have git installed, type:
+
+> git clone (link to this repository)
+
+Once you have done this, go to the folder that is created, and just type:
+
+> make shelling_
+
+With this you already can execute > .hsh
+
+> make run
+
+With this, execute the program as is
+
+Now, you can skip that.
 We have our own installator, with graphical menu and everything, to run it, just type:
 
 > sudo ./sh-install.sh
@@ -108,6 +125,10 @@ Enter your password (if you have one), and do the step you want.
 Of course, if you want dependences and all, but, we strongly recommend you, install the shell first, leave you the code here if you miss it:
 
 > sudo ./sh-install.sh -i install
+
+To execute, if you miss that too:
+
+> sudo _shell -i run
 
 And play and enjoy.
 
@@ -120,6 +141,22 @@ Our main function is:
 > init_shell.c
 
 ## Subfunctions
+
+| Function  | Description |
+| :------ | ---------------------:|
+| `Builder.c` | Provides you with a function pointer to the executed command |
+| `Builting.c` |  Function pointer checker |
+| `Char_Func.c` |   String handling functions |
+| `Char_Func2.c` |  String Handling Functions II |
+| `Mang_Memory.c` | Memory Management |
+| `check_cmd.c` | Command checker and process creator |
+| `cmd.c` | Command functions |
+| `cmd_2.c` | Error emulation of set_env (Test) |
+| `manage_files.c` | File Management |
+| `parsed.c` | Tokenize Commands |
+| `prompter.c` | Prompter |
+| `searc_Path.c` | PATH Search Engine |
+| `strings.c` | PATH Search Engine |
 
 ## FlowChart:
 
