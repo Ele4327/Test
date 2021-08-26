@@ -53,7 +53,24 @@ List of allowed functions and system calls:
 - [ ] wait4
 - [X] write
 
+# Table of Contents
+=================
 
+* [Simple Shell](#simple-shell)
+   * [Features](#features)
+* [Simple Shell](#simple-shell-1)
+* [Features](#features-1)
+   * [Output](#output)
+   * [Installation:](#installation)
+      * [Compilation and Execution:](#compilation-and-execution)
+      * [Make:](#make)
+* [How this works:](#how-this-works)
+   * [Main Functions](#main-functions)
+   * [Subfunctions](#subfunctions)
+   * [FlowChart:](#flowchart)
+   * [Tests](#tests)
+      * [Contribuitors](#contribuitors)
+      * [Languages and Tools:](#languages-and-tools)
 
 ## Output
 
