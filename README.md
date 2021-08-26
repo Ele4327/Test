@@ -95,7 +95,7 @@ Once you have done this, go to the folder that is created, and just type:
 
 > gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-And that´s pretty mucho all, use the shell, like the standard shell.
+And that´s pretty much all, use the shell, like the standard shell.
 
 ### Make:
 
@@ -156,7 +156,7 @@ Our main function is:
 | `parsed.c` | Tokenize Commands |
 | `prompter.c` | Prompter |
 | `searc_Path.c` | PATH Search Engine |
-| `strings.c` | PATH Search Engine |
+| `strings.c` | String Management |
 
 ## FlowChart:
 
@@ -192,7 +192,7 @@ $
 ```
 <h3 align="left">Contribuitors</h3>
 <p align="left">
-<a href="https://twitter.com/@Juan_Duque0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="" height="30" width="40" />Juan Esteban Duque</a>
+<a href="https://twitter.com/@Juan_Duque0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="" height="30" width="40" />Juan Duque</a>
 </p>
 <p align="left">
 <a href="https://twitter.com/@CanelitaCadavid" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="" height="30" width="40" />Laura Alejandra Cadavid</a>
