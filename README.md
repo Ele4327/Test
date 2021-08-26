@@ -22,36 +22,36 @@ For a more specific explanation, we invite you to see our manual: man_1_simple_s
 List of allowed functions and system calls:
 
 - [ ] access
-- [ ] chdir
-- [ ] close
+- [X] chdir
+- [X] close
 - [ ] closedir
-- [ ] execve
-- [ ] exit
+- [X] execve
+- [X] exit
 - [ ] _exit
-- [ ] fflush
-- [ ] fork
-- [ ] free
-- [ ] getcwd
-- [ ] getline
-- [ ] getpid
-- [ ] isatty
-- [ ] kill
-- [ ] malloc
-- [ ] open
+- [X] fflush
+- [X] fork
+- [X] free
+- [X] getcwd
+- [X] getline
+- [X] getpid
+- [X] isatty
+- [X] kill
+- [X] malloc
+- [X] open
 - [ ] opendir
-- [ ] perror
-- [ ] read
+- [X] perror
+- [X] read
 - [ ] readdir
-- [ ] signal
-- [ ] stat (__xstat)
+- [X] signal
+- [X] stat (__xstat)
 - [ ] lstat (__lxstat)
-- [ ] fstat (__fxstat)
-- [ ] strtok
-- [ ] wait
-- [ ] waitpid
+- [X] fstat (__fxstat)
+- [X] strtok
+- [X] wait
+- [X] waitpid
 - [ ] wait3
 - [ ] wait4
-- [ ] write
+- [X] write
 
 
 
