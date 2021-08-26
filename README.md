@@ -83,14 +83,41 @@ $
 
 There is two ways: Compilation and Execution and Make
 
-## Compilation and Execution
+### Compilation and Execution:
 
+Clone our repository:
 
+- Go on your machine to the desired location and if you have git installed, type:
 
+> git clone (link to this repository)
+
+Once you have done this, go to the folder that is created, and just type:
+
+> gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+And that´s pretty mucho all, use the shell, like the standard shell.
+
+### Make:
+
+We know we told you that the code are compiled with gcc, but, if you dont have that, we thought that too
+We have our own installator, with graphical menu and everything, to run it, just type:
+
+> sudo ./sh-install.sh
+
+Enter your password (if you have one), and do the step you want.
+Of course, if you want dependences and all, but, we strongly recommend you, install the shell first, leave you the code here if you miss it:
+
+> sudo ./sh-install.sh -i install
+
+And play and enjoy.
 
 # How this works:
 
 ## Main Functions
+
+Our main function is:
+
+> init_shell.c
 
 ## Subfunctions
 
@@ -128,7 +155,7 @@ $
 ```
 <h3 align="left">Contribuitors</h3>
 <p align="left">
-<a href="https://twitter.com/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="" height="30" width="40" />Juan Esteban Duque</a>
+<a href="https://twitter.com/@Juan_Duque0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="" height="30" width="40" />Juan Esteban Duque</a>
 </p>
 <p align="left">
 <a href="https://twitter.com/@CanelitaCadavid" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="" height="30" width="40" />Laura Alejandra Cadavid</a>
